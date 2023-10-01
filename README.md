@@ -107,16 +107,3 @@ Keep in mind that the repo has hacktoberfest topic.
 In the cloud-free development environment where you can directly start coding.
 
 You can use Gitpod in the cloud [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/DhanushNehru/Hacktoberfest/)
-
-
-## + Follow Me : } Quick Approval of Pull Request
-
-```py
-'''
-To get approval of the pull request much quicker and faster (`Follow Me`)🚀
-'''
-```
-
-<tr><td align="center"><a href="https://github.com/DhanushNehru"><kbd><img src="https://avatars3.githubusercontent.com/DhanushNehru?size=100" width="100px;" alt=""/></kbd><br /><sub><b>Dhanush Nehru</b></sub></a><br /></td>
-
-</tr>
