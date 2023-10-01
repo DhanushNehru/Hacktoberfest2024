@@ -8,7 +8,7 @@ Hacktoberfest 2023 OPEN FIRST Pull Request - SUPPORT OPEN SOURCE &amp; WIN FREE 
 
 <div align="center">
 
-<a href="https://github.com/DhanushNehru/Hacktoberfest2023/graphs/contributors">
+<a href="https://github.com/DhanushNehru/Hacktoberfest/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=DhanushNehru/Hacktoberfest" />
 </a>
   
