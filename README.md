@@ -5,7 +5,7 @@ Hacktoberfest 2023 OPEN FIRST Pull Request - SUPPORT OPEN SOURCE &amp; WIN FREE 
 
 ## Wall of Contributors of `Hacktoberfest 2023`
 <a href="https://github.com/DhanushNehru/Hacktoberfest/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=DhanushNehru/Hacktoberfest" />
+ <img src="https://contrib.rocks/image?repo=DhanushNehru/Hacktoberfest" />
 </a>
 
 ## This Project Is Perfect For Your First Pull Request
