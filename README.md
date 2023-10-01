@@ -22,7 +22,7 @@ Hacktoberfest 2023 OPEN FIRST Pull Request - SUPPORT OPEN SOURCE &amp; WIN FREE 
 
 <a href="https://github.com/DhanushNehru/hacktoberfest/pulls"><img src="https://img.shields.io/github/issues-pr/DhanushNehru/hacktoberfest2023" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/DhanushNehru/hacktoberfest/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/DhanushNehru/hacktoberfest?color=2b9348"></a>
-<a href="https://github.com/DhanushNehru/hacktoberfest2023/blob/master/LICENSE"><img src="https://img.shields.io/github/license/DhanushNehru/hacktoberfest?color=2b9348" alt="License Badge"/></a>
+<a href="https://github.com/DhanushNehru/hacktoberfest/blob/master/LICENSE"><img src="https://img.shields.io/github/license/DhanushNehru/hacktoberfest?color=2b9348" alt="License Badge"/></a>
 
 </div>
 
