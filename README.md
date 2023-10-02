@@ -3,12 +3,6 @@ Hacktoberfest 2023 OPEN FIRST Pull Request - SUPPORT OPEN SOURCE &amp; WIN FREE 
 
 ![HacktoberFest 2023](https://github.com/DhanushNehru/Hacktoberfest/raw/main/.github/logo.png)
 
-## Wall of Contributors of Hacktoberfest 2023
-
-<a href="https://github.com/DhanushNehru/Hacktoberfest/graphs/contributors">
- <img src="https://contrib.rocks/image?repo=DhanushNehru/Hacktoberfest" />
-</a>
-
 ## This Project Is Perfect For Your First Pull Request
 
 🗣 **Hacktoberfest encourages participation in the open-source community, which grows bigger every year. Complete the challenge and earn a limited edition T-shirt.**
@@ -102,6 +96,12 @@ I will recommend you make a pull request to your own repo which is very very saf
 Keep in mind that the repo has hacktoberfest topic.
 '''
 ```
+
+## Wall of Contributors of Hacktoberfest 2023
+
+<a href="https://github.com/DhanushNehru/Hacktoberfest/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=DhanushNehru/Hacktoberfest" />
+</a>
 
 ## Gitpod
 
