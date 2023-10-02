@@ -1,4 +1,8 @@
-# Hacktoberfest
+# Hacktoberfest 
+## Open Source Programs
+
+<p align="center"> PetMe is ready for Hacktoberfest</p>
+ <a href="https://hacktoberfest.com/">
 Hacktoberfest 2023 OPEN FIRST Pull Request - SUPPORT OPEN SOURCE &amp; WIN FREE T-SHIRT
 
 ![HacktoberFest 2023](https://github.com/DhanushNehru/Hacktoberfest/raw/main/.github/logo.png)
@@ -21,6 +25,17 @@ Hacktoberfest 2023 OPEN FIRST Pull Request - SUPPORT OPEN SOURCE &amp; WIN FREE 
 
 </div>
 
+## ⭐ How to get started with open source?
+<img src="https://github.com/Vi1234sh12/Face-X/blob/master/.github/Assests/isometric.png" height="290px" align="right"/>
+
+You can refer to the following articles on the basics of Git and Github.
+
+- [Watch this video to get started, if you have no clue about open source](https://youtu.be/SYtPC9tHYyQ)
+- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
+- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
+- [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+
 ## INSTRUCTIONS-
 
 - Fork this Repository using the button at the top on the right corner.
@@ -31,6 +46,66 @@ Hacktoberfest 2023 OPEN FIRST Pull Request - SUPPORT OPEN SOURCE &amp; WIN FREE 
 - Add your files (`git add -A`), commit (`git commit -m "added myself"`) and push (`git push origin new-user`)
 - Create a pull request
 - Star this repository
+
+### ⭐ How to make a pull request (PR)
+**1.** Start by making a Fork of the [**Hacktoberfest**](https://github.com/DhanushNehru/Hacktoberfest) repository. Click on the <a href="https://github.com/DhanushNehru/Hacktoberfest/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a>Fork symbol at the top right corner.
+
+**2.** Clone your new fork of the repository in the terminal/CLI on your computer with the following command:
+
+```bash
+git clone https://github.com/<your-github-username>/Hacktoberfest
+```
+
+**3.** Navigate to the newly created PetMe project directory:
+
+```bash
+cd Hacktoberfest
+```
+
+**4.** Set upstream command:
+
+```bash
+git remote add upstream https://github.com/DhanushNehru.git
+```
+
+**5.** Create a new branch:
+
+```bash
+git checkout -b YourBranchName
+```
+
+**6.** Sync your fork or your local repository with the origin repository:
+
+- In your forked repository, click on "Fetch upstream"
+- Click "Fetch and merge"
+
+**7.** Make your changes to the source code.
+
+**8.** Stage your changes and commit:
+
+⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
+
+⚠️ **Make sure** not to run the commands `git add .` or `git add *`. Instead, stage your changes for each file/folder
+
+```bash
+git add public
+```
+
+```bash
+git commit -m "<your_commit_message>"
+```
+
+**9.** Push your local commits to the remote repository:
+
+```bash
+git push origin YourBranchName
+```
+
+**10.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
+
+**11.** **Congratulations!** You've made your first contribution to [**Hacktoberfest**]
+
+
 
 # How To Make Your First Pull Request
 
