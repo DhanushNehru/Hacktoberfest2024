@@ -97,8 +97,7 @@ Keep in mind that the repo has hacktoberfest topic.
 '''
 ```
 
-## Wall of Contributors of Hacktoberfest 2023
-
+## Wall of Contributors
 <a href="https://github.com/DhanushNehru/Hacktoberfest/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=DhanushNehru/Hacktoberfest" />
 </a>
