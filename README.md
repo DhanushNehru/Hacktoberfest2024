@@ -172,11 +172,6 @@ Keep in mind that the repo has hacktoberfest topic.
 '''
 ```
 
-## Wall of Contributors
-<a href="https://github.com/DhanushNehru/Hacktoberfest/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=DhanushNehru/Hacktoberfest" />
-</a>
-
 ## Gitpod
 
 In the cloud-free development environment where you can directly start coding.
