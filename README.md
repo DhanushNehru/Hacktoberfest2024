@@ -3,7 +3,7 @@
 
 <p align="center"> PetMe is ready for Hacktoberfest</p>
  <a href="https://hacktoberfest.com/">
-Hacktoberfest 2023 OPEN FIRST Pull Request - SUPPORT OPEN SOURCE &amp; WIN FREE T-SHIRT
+Hacktoberfest 2024 OPEN FIRST Pull Request - SUPPORT OPEN SOURCE
 
 ![HacktoberFest 2023](https://github.com/DhanushNehru/Hacktoberfest/raw/main/.github/logo.png)
 
