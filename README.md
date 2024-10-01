@@ -38,8 +38,9 @@ You can refer to the following articles on the basics of Git and Github.
 
 ## INSTRUCTIONS-
 
-- Fork this Repository using the button at the top on the right corner.
-- Clone your forked repository to your PC ( git clone "url from clone option.)
+- **Follow** the [maintainer of the repo](https://github.com/DhanushNehru) to show your support 
+- **Fork** this Repository using the button at the top on the right corner.
+- **Clone** your forked repository to your PC ( git clone "url from clone option.)
 - Create a new branch for your modifications (ie. `git branch new-user and check it out `git checkout new-user` or simply do `git checkout -b new-user`)
 - Add your profile image in `static/images/` ( use drag and drop option or upload by commands.)
 - Add your profile data in `content/participant/`
