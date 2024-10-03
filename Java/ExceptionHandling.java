@@ -53,7 +53,7 @@ class Product {
     }
 }
 
-public class ProductRegistration {
+public class ExceptionHandling {
     public static void main(String[] args) {
         Product[] products = new Product[5];
         
