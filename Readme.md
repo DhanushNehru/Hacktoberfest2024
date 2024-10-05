@@ -60,11 +60,14 @@ Enter neighbor and weight separated by space: C 1
 Enter the source vertex: A
 </pre>
 
-
+<pre>
 4: Number of vertices in the graph.
 A, B, C, D: The vertices of the graph.
 B 1, C 4: Vertex A has edges to B with weight 1, and to C with weight 4.
 A: The source vertex for shortest path calculations.
+</pre>
 
+<pre>
 OUTPUT FORMAT
 Shortest distances from A: {'A': 0, 'B': 1, 'C': 3, 'D': 4}
+</pre>
