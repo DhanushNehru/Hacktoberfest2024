@@ -35,28 +35,29 @@ The input consists of:
     * For each edge, input the neighboring vertex and the edge weight, separated by a space.
 * Source vertex: Enter the name of the source vertex from which the shortest paths will be calculated.
 
-example: 4
-''''
-A                              
-2
-B 1
-C 4
-B
-3
-A 1
-C 2
-D 5
-C
-3
-A 4
-B 2
-D 1
-D
-2
-B 5
-C 1
-A
-''''
+example: 
+
+Enter number of vertices: 4
+Enter vertex: A
+Enter number of edges for A: 2
+Enter neighbor and weight separated by space: B 1
+Enter neighbor and weight separated by space: C 4
+Enter vertex: B
+Enter number of edges for B: 3
+Enter neighbor and weight separated by space: A 1
+Enter neighbor and weight separated by space: C 2
+Enter neighbor and weight separated by space: D 5
+Enter vertex: C
+Enter number of edges for C: 3
+Enter neighbor and weight separated by space: A 4
+Enter neighbor and weight separated by space: B 2
+Enter neighbor and weight separated by space: D 1
+Enter vertex: D
+Enter number of edges for D: 2
+Enter neighbor and weight separated by space: B 5
+Enter neighbor and weight separated by space: C 1
+Enter the source vertex: A
+
 
 4: Number of vertices in the graph.
 A, B, C, D: The vertices of the graph.
