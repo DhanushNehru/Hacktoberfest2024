@@ -37,6 +37,7 @@ The input consists of:
 
 example: 
 
+<pre>
 Enter number of vertices: 4
 Enter vertex: A
 Enter number of edges for A: 2
@@ -57,6 +58,7 @@ Enter number of edges for D: 2
 Enter neighbor and weight separated by space: B 5
 Enter neighbor and weight separated by space: C 1
 Enter the source vertex: A
+</pre>
 
 
 4: Number of vertices in the graph.
