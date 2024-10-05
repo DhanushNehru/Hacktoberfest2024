@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+#sorting algo
 public class Bubble_Sort {
 
     public static void printArr(int[] arr){
