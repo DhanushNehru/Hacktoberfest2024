@@ -34,7 +34,7 @@ The input consists of:
     * Enter the number of edges connected to that vertex.
     * For each edge, input the neighboring vertex and the edge weight, separated by a space.
 * Source vertex: Enter the name of the source vertex from which the shortest paths will be calculated.
-
+<pre>
 example: 4
 A                              
 2
@@ -55,11 +55,14 @@ D
 B 5
 C 1
 A
-
+</pre>
+<pre>
 4: Number of vertices in the graph.
 A, B, C, D: The vertices of the graph.
 B 1, C 4: Vertex A has edges to B with weight 1, and to C with weight 4.
 A: The source vertex for shortest path calculations.
-
+</pre>
+<pre>
 OUTPUT FORMAT
 Shortest distances from A: {'A': 0, 'B': 1, 'C': 3, 'D': 4}
+</pre>
