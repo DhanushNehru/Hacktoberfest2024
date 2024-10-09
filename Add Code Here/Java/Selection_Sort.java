@@ -1,51 +1,34 @@
-import java.util.Scanner;
+import java.util.Arrays;
 
-public class Selection_Sort {
+public class SelectionSort {
+    // Method to perform selection sort
+    public static void selectionSort(int[] array) {
+        int n = array.length;
 
-    public static int[] arrInput(Scanner sc) {
-        System.out.print("Enter the size of the array: ");
-        int n = sc.nextInt();
-        int[] arr = new int[n];
-        System.out.println("Enter the elements of the array: ");
-        for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
-        }
-        return arr;
-    }
-
-    public static void selectionSort(int[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
+        // One by one move the boundary of the unsorted subarray
+        for (int i = 0; i < n - 1; i++) {
+            // Find the minimum element in the unsorted array
             int minIndex = i;
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[j] < arr[minIndex]) {
-                    minIndex = j;
+            for (int j = i + 1; j < n; j++) {
+                if (array[j] < array[minIndex]) {
+                    minIndex = j; // Update index of the minimum element
                 }
             }
-            int temp = arr[minIndex];
-            arr[minIndex] = arr[i];
-            arr[i] = temp;
+
+            // Swap the found minimum element with the first element
+            int temp = array[minIndex];
+            array[minIndex] = array[i];
+            array[i] = temp;
         }
     }
 
+    // Main method to test the selection sort
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
-        int[] arr = arrInput(sc);
-        
-        System.out.print("Array before sorting: ");
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
-        System.out.println();
-        
-        selectionSort(arr);
-        
-        System.out.print("Array after sorting: ");
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
-        System.out.println();
-        
-        sc.close();
+        int[] array = {64, 25, 12, 22, 11}; // Sample array
+        System.out.println("Original array: " + Arrays.toString(array));
+
+        selectionSort(array); // Call the selection sort method
+
+        System.out.println("Sorted array: " + Arrays.toString(array)); // Print sorted array
     }
 }
