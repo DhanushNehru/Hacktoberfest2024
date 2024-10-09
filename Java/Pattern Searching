@@ -1,0 +1,30 @@
+Pattern searching algorithms are essential tools in computer science and data processing. 
+These algorithms are designed to efficiently find a particular pattern within a larger set of data. 
+Pattern searching algorithms play important role in tasks such as text processing, data mining, and information retrieval.
+
+Pattern-Searching
+Patten Searching
+What is Pattern Searching?
+Pattern searching is a fundamental operation in data structures and algorithms. It involves finding a specific pattern or substring within a given text or string. Efficient pattern searching algorithms are essential for various applications, including text processing, information retrieval, and bioinformatics.
+
+Important Pattern Searching Algorithms:
+1. Naive String Matching
+The naive string matching algorithm is the simplest pattern searching algorithm. It compares the pattern with every possible substring of the text. The time complexity of this algorithm is O(mn), where m is the length of the pattern and n is the length of the text.
+
+2. Knuth-Morris-Pratt (KMP) Algorithm
+The KMP algorithm is a heuristic algorithm that uses a precomputed failure function to skip unnecessary comparisons. The failure function indicates the length of the longest proper prefix of the pattern that is also a suffix of the current substring. The time complexity of the KMP algorithm is O(m + n), where m is the length of the pattern and n is the length of the text.
+
+3. Rabin-Karp Algorithm
+The Rabin-Karp algorithm is a heuristic algorithm that uses hashing to compare the pattern with the text. It computes a hash value for the pattern and for each substring of the text. If the hash values match, it performs a character-by-character comparison to confirm the match. The time complexity of the Rabin-Karp algorithm is O(m + n), where m is the length of the pattern and n is the length of the text.
+
+4. Aho-Corasick Algorithm
+The Aho-Corasick algorithm is a deterministic finite automaton (DFA) based algorithm that is used for multiple pattern searching. It constructs a DFA from a set of patterns and then uses the DFA to find all occurrences of the patterns in the text. The time complexity of the Aho-Corasick algorithm is O(m + n), where m is the total length of all patterns and n is the length of the text.
+
+Applications of Pattern Searching
+Pattern searching algorithms have numerous applications, including:
+
+Text Processing: Searching for keywords in a document, finding and replacing text, spell checking, and plagiarism detection.
+Information Retrieval: Finding relevant documents in a database, web search, and data mining.
+Bioinformatics: Searching for DNA sequences in a genome, protein analysis, and gene expression analysis.
+Network Security: Detecting malicious patterns in network traffic, intrusion detection, and malware analysis.
+Data Mining: Identifying patterns in large datasets, customer segmentation, and fraud detection.
