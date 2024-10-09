@@ -1,25 +1,20 @@
-def arr_input():
-    n = int(input("Enter the size of the array: "))
-    arr = list(map(int, input("Enter the elements of the array: ").split()))
-    return arr
-
 def selection_sort(arr):
-    n = len(arr)
-    for i in range(n):
+    # Traverse through all array elements
+    for i in range(len(arr)):
+        # Find the minimum element in remaining unsorted array
         min_index = i
-        for j in range(i + 1, n):
+        for j in range(i + 1, len(arr)):
             if arr[j] < arr[min_index]:
                 min_index = j
-        arr[i], arr[min_index] = arr[min_index], arr[i]  # Swaping the elements
+        
+        # Swap the found minimum element with the first element
+        arr[i], arr[min_index] = arr[min_index], arr[i]
 
-def main():
-    arr = arr_input()
-    
-    print("Array before sorting:", arr)
-    
-    selection_sort(arr)
-    
-    print("Array after sorting:", arr)
-
+# Main function to test the selection sort
 if __name__ == "__main__":
-    main()
+    array = [64, 25, 12, 22, 11]  # Sample array
+    print("Original array:", array)
+
+    selection_sort(array)  # Call the selection sort function
+
+    print("Sorted array:", array)  # Print sorted array
