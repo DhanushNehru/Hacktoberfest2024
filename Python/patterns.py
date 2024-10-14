@@ -25,7 +25,6 @@ for i in range(1,2*n):
 """Example
 Input:
 5
-
 Output:
 * * * * * * * * * 
   *           * 
