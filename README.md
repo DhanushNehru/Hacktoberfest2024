@@ -134,9 +134,9 @@ Copy the next template into your file, delete the boilerplate data and fill the 
 
 ```
 ---
-name: YOURNAME
-institution/company: INSTITUTION_NAME
-github: USERNAME
+name: Vipul
+institution/company: Newton School of Technology
+github: codervipul775
 ---
 ```
 
@@ -151,7 +151,7 @@ Create/Upload your code in the folder following the convention `Add Code Here`
 - Below is `an example` to add file properly
 - You can follow up `any languages`
 ```
-Add Code Here/PYTHON/<YOUR-FILERNAME>.py
+Add Code Here/PYTHON/pattern.py
 ```
 ```
 Add Code Here/C++/<YOUR-FILERNAME>.cpp
