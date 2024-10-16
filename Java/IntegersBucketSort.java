@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class BucketSort {
+public class IntegersBucketSort {
     public static void bucketSort(int[] arr, int low, int high) {
         int[] hist = new int[high - low + 1];
 
