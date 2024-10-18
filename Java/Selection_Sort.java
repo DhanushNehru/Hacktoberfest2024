@@ -1,51 +1,40 @@
 import java.util.Scanner;
 
-public class Selection_Sort {
+class Selection_Sort {
 
-    public static int[] arrInput(Scanner sc) {
-        System.out.print("Enter the size of the array: ");
-        int n = sc.nextInt();
-        int[] arr = new int[n];
-        System.out.println("Enter the elements of the array: ");
-        for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
-        }
-        return arr;
+    void initialize(int arr[]) {
+        System.out.println("Enter array elements:");
+        Scanner in = new Scanner(System.in);
+        for (int i = 0; i < arr.length; i++)
+            arr[i] = in.nextInt();
+        in.close();
     }
 
-    public static void selectionSort(int[] arr) {
+    void display(int arr[]) {
+        System.out.println("The array elements are:");
+        for (int i : arr) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
+
+    void sort(int arr[]) {
         for (int i = 0; i < arr.length - 1; i++) {
-            int minIndex = i;
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[j] < arr[minIndex]) {
-                    minIndex = j;
-                }
+            int min = i;
+            for (int j = i + 1; j < arr.length; j++) {  
+                if (arr[j] < arr[min])
+                    min = j;
             }
-            int temp = arr[minIndex];
-            arr[minIndex] = arr[i];
-            arr[i] = temp;
+            arr[i] = arr[i] + arr[min] - (arr[min] = arr[i]);
         }
     }
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
-        int[] arr = arrInput(sc);
-        
-        System.out.print("Array before sorting: ");
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
-        System.out.println();
-        
-        selectionSort(arr);
-        
-        System.out.print("Array after sorting: ");
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
-        System.out.println();
-        
-        sc.close();
+    public static void main(String args[]) {
+        int[] arr = new int[5];
+        Selection_Sort sorter = new Selection_Sort();  
+        sorter.initialize(arr);
+        sorter.display(arr);
+        sorter.sort(arr);
+        sorter.display(arr);
     }
 }
