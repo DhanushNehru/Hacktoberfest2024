@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignStyle - Stylish Signature Creator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo">SignStyle</h1>
+        <p class="tagline">Create Your Signature in Style</p>
+        <div class="controls">
+            <div class="control-group">
+                <label for="colorPicker">Signature Color</label>
+                <input type="color" id="colorPicker" value="#4a4a4a"/>
+            </div>
+            <div class="control-group">
+                <label for="canvasColor">Background Color</label>
+                <input type="color" id="canvasColor" value="#ffffff"/>
+            </div>
+            <div class="control-group">
+                <label for="fontPicker">Brush Size</label>
+                <select id="fontPicker">
+                    <option value="2">Thin</option>
+                    <option value="5" selected>Medium</option>
+                    <option value="10">Thick</option>
+                    <option value="15">Extra Thick</option>
+                </select>
+            </div>
+        </div>
+        <div class="canvas-container">
+            <canvas id="myCanvas" width="840" height="400"></canvas>
+        </div>
+        <div class="buttons">
+            <button type="button" class="btn btn-danger" id="clearButton">
+                <i class="fas fa-eraser"></i> Clear
+            </button>
+            <button type="button" class="btn btn-success" id="saveButton">
+                <i class="fas fa-download"></i> Save
+            </button>
+            <button type="button" class="btn btn-warning" id="retrieveButton">
+                <i class="fas fa-undo"></i> Retrieve
+            </button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
