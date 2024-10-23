@@ -1,5 +1,5 @@
 /*
- The Moore Voting Algorithm is an efficient algorithm that finds the majority element in an array (an element that appears more than n/2 times) 
+ The Moore's Voting Algorithm is an efficient algorithm that finds the majority element in an array (an element that appears more than n/2 times) 
  with O(n) time complexity and O(1) space complexity.
  */
 public class MooreVotingAlgorithm {
