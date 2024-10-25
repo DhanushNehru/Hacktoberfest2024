@@ -1,17 +1,23 @@
-# Hacktoberfest
-Hacktoberfest 2023 OPEN FIRST Pull Request - SUPPORT OPEN SOURCE &amp; WIN FREE T-SHIRT
+# Hacktoberfest 
+## Open Source Programs
+
+[![Join Our Discord](https://img.shields.io/badge/Discord-Join%20Server-blue?logo=discord&style=for-the-badge)](https://discord.com/invite/Yn9g6KuWyA)
+[![Subscribe on YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?logo=youtube&style=for-the-badge)](https://www.youtube.com/@dhanushnehru?sub_confirmation=1)
+[![Subscribe to Newsletter](https://img.shields.io/badge/Newsletter-Subscribe-orange?style=for-the-badge)](https://dhanushn.substack.com/)
+
+Hacktoberfest 2024 OPEN FIRST Pull Request - SUPPORT OPEN SOURCE
 
 ![HacktoberFest 2023](https://github.com/DhanushNehru/Hacktoberfest/raw/main/.github/logo.png)
 
 ## This Project Is Perfect For Your First Pull Request
 
-🗣 **Hacktoberfest encourages participation in the open-source community, which grows bigger every year. Complete the challenge and earn a limited edition T-shirt.**
+🗣 **Hacktoberfest encourages participation in the open-source community, which grows bigger every year. Complete the challenge as a part of your opensource journey.**
 
-📢 **Register [here](https://hacktoberfest.digitalocean.com) for Hacktoberfest and make four pull requests (PRs) between October 1st-31st to grab free SWAGS 🔥.**
+📢 **Register [here](https://hacktoberfest.com) for Hacktoberfest and make four pull requests (PRs) between October 1st-31st to grab free SWAGS 🔥.**
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/hacktoberfest-2023-blueviolet" alt="Hacktober Badge"/>
+<img src="https://img.shields.io/badge/hacktoberfest-2024-greenviolet" alt="Hacktober Badge"/>
  <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
  <a href="https://github.com/DhanushNehru" ><img src="https://img.shields.io/badge/Contributions-welcome-violet.svg?style=flat&logo=git" alt="Contributions" /></a>
 
@@ -21,16 +27,87 @@ Hacktoberfest 2023 OPEN FIRST Pull Request - SUPPORT OPEN SOURCE &amp; WIN FREE 
 
 </div>
 
+## ⭐ How to get started with open source?
+<img src="https://github.com/Vi1234sh12/Face-X/blob/master/.github/Assests/isometric.png" height="290px" align="right"/>
+
+You can refer to the following articles on the basics of Git and Github.
+
+- [Watch this video to get started, if you have no clue about open source](https://youtu.be/SYtPC9tHYyQ)
+- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
+- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
+- [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+
 ## INSTRUCTIONS-
 
-- Fork this Repository using the button at the top on the right corner.
-- Clone your forked repository to your PC ( git clone "url from clone option.)
+- **Fork** this Repository using the button at the top on the right corner.
+- **Clone** your forked repository to your PC ( git clone "url from clone option.)
 - Create a new branch for your modifications (ie. `git branch new-user and check it out `git checkout new-user` or simply do `git checkout -b new-user`)
 - Add your profile image in `static/images/` ( use drag and drop option or upload by commands.)
 - Add your profile data in `content/participant/`
 - Add your files (`git add -A`), commit (`git commit -m "added myself"`) and push (`git push origin new-user`)
 - Create a pull request
 - Star this repository
+
+### ⭐ How to make a pull request (PR)
+**1.** Start by making a Fork of the [**Hacktoberfest**](https://github.com/DhanushNehru/Hacktoberfest) repository. Click on the <a href="https://github.com/DhanushNehru/Hacktoberfest/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a>Fork symbol at the top right corner.
+
+**2.** Clone your new fork of the repository in the terminal/CLI on your computer with the following command:
+
+```bash
+git clone https://github.com/<your-github-username>/Hacktoberfest
+```
+
+**3.** Navigate to the newly created PetMe project directory:
+
+```bash
+cd Hacktoberfest
+```
+
+**4.** Set upstream command:
+
+```bash
+git remote add upstream https://github.com/DhanushNehru.git
+```
+
+**5.** Create a new branch:
+
+```bash
+git checkout -b YourBranchName
+```
+
+**6.** Sync your fork or your local repository with the origin repository:
+
+- In your forked repository, click on "Fetch upstream"
+- Click "Fetch and merge"
+
+**7.** Make your changes to the source code.
+
+**8.** Stage your changes and commit:
+
+⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
+
+⚠️ **Make sure** not to run the commands `git add .` or `git add *`. Instead, stage your changes for each file/folder
+
+```bash
+git add public
+```
+
+```bash
+git commit -m "<your_commit_message>"
+```
+
+**9.** Push your local commits to the remote repository:
+
+```bash
+git push origin YourBranchName
+```
+
+**10.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
+
+**11.** **Congratulations!** You've made your first contribution to [**Hacktoberfest**]
+
+
 
 # How To Make Your First Pull Request
 
@@ -97,13 +174,8 @@ Keep in mind that the repo has hacktoberfest topic.
 '''
 ```
 
-## Wall of Contributors
-<a href="https://github.com/DhanushNehru/Hacktoberfest/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=DhanushNehru/Hacktoberfest" />
-</a>
-
 ## Gitpod
 
 In the cloud-free development environment where you can directly start coding.
 
-You can use Gitpod in the cloud [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/DhanushNehru/Hacktoberfest/)
+You can use Gitpod in the cloud [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/DhanushNehru/Hacktoberfest2024/)
